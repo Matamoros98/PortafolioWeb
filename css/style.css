@@ -8,7 +8,7 @@
   display: flex;
   position: fixed;
   justify-content: flex-end;
-  background-color: #440C9E;
+  background-color: #440c9e;
 }
 .nav-list {
   display: flex;
@@ -21,7 +21,7 @@
   display: block;
   font-size: 2rem;
   padding: 0.5rem;
-  color: #EBE8F0;
+  color: #ebe8f0;
   text-decoration: none;
 }
 .welcome-section {
@@ -33,15 +33,16 @@
   align-content: center;
   align-items: center;
   font-size: 3rem;
-  background-color: #3a3d48;
+  background-image:url('https://images.unsplash.com/photo-1591375779766-bf562a2a19c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: #3a3d48;*/
 }
 h1 {
-  
-  color: #EBE8F0;
+  color: #ebe8f0;
 }
 .welcome-section p {
- 
-  color: coral;
+  color: #9992A5;
 }
 .contac-section {
   width: 100%;
@@ -49,34 +50,63 @@ h1 {
   padding-top: 1.3rem;
   justify-content: space-evenly;
   background-color: seagreen;
+  text-align: center;
+ 
 }
 .contac-section a {
   text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }
-.project-section
-{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    padding-top: 1.3rem;
-    background-color: lightskyblue;
+.project-section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  position: static;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 1.5rem;
+  background-color: lightskyblue;
 }
-.project-section a 
-{
+.project-section a {
   text-decoration: none;
 }
+.project-tile {
+  /*padding: 1rem;*/
+}
+
+.content {
+  background-color: #3a3d48;
+  padding: 10px;
+  display: grid;
+  justify-self: stretch;
+  text-align: center;
+}
+.content img {
+  width: 100%;
+}
+.content h3,
+a {
+  font-weight: 1rem;
+  text-decoration: none;
+  color: #ebe8f0;
+}
 footer {
+  width:100% ;
   display: flex;
   padding-top: 1.3rem;
   justify-content: space-evenly;
   /*margin: 2px;*/
-  background-color: #0D3F8D;
+  background-color: #3a3d48;
 }
 p {
   display: block;
 }
-footer a {
-  color: #EBE8F0;
+footer a,p {
+  color: #ebe8f0;
   text-decoration: none;
 }
 /*@media only screen and (max-width: 600px) {
@@ -86,8 +116,7 @@ footer a {
     background-color: lightblue;
   }
 }*/
-@media (max-width: 300px)
-{
+@media (max-width: 300px) {
   .nav-list a {
     font-size: 1.1rem;
     padding: 0.2rem;
