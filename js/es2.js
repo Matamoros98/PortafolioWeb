@@ -15,8 +15,8 @@ let wr = (str, str2) => {
         if (i === arrFromSrt.length) {
           clearInterval(printStr2);
         }
-      }, 300);
+      }, 200);
     }
-  }, 300);
+  }, 200);
 };
 wr("Hola,soy Christian Matamoros", "Soy Desarrollador Web");
