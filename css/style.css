@@ -91,9 +91,9 @@ h1 {
 .project-section a {
   text-decoration: none;
 }
-.project-tile {
-  /*padding: 1rem;*/
-}
+/*.project-tile {
+  /*padding: 1rem;
+}*/
 
 .content {
   background-color: #ebe8f0;
