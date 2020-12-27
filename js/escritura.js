@@ -25,6 +25,7 @@ let wrp = (str) => {
           clearInterval(printStr);
       }
     }, 300);
+    return true;
   };
 wr('Hola,soy Christian Matamoros');
 
